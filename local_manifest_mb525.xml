@@ -19,7 +19,7 @@
   <remove-project name="AOSPA-legacy/android_frameworks_opt_telephony" />
   <!-- <remove-project name="AOSPA-legacy/android_packages_apps_Settings" /> -->
   <remove-project name="AOSPA-legacy/android_vendor_pa" />
-  <remove-project name="AOSPA-legacy/android_vendor_pa/android_packages_services_Telephony" />
+  <remove-project name="AOSPA-legacy/android_packages_services_Telephony" />
   <remove-project name="platform/external/qemu" />
   <remove-project name="platform/external/qemu-pc-bios" />
   <remove-project name="platform/packages/apps/VideoEditor" />
@@ -61,7 +61,7 @@
   <project path="frameworks/rs" name="Quarx2k/android_frameworks_rs" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="art" name="Quarx2k/android_art" remote="github" revision="cm-11.0" />
 
-  <project path="external/lsof" name="CyanogenMod/android_external_lsof" remote="cm" revision="cm-11.0" />
+  <project path="external/lsof" name="CyanogenMod/android_external_lsof" remote="github" revision="cm-11.0" />
   
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="JustArchi/linaro.git" remote="github" revision="4.8-eabi" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="JustArchi/linaro.git" remote="github" revision="4.8-androideabi" />
