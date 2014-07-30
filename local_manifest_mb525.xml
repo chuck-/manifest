@@ -2,7 +2,6 @@
 <manifest>
 
   <remote name="omapzoom" fetch="git://git.omapzoom.org/" />
-  <remote name="github" fetch="https://github.com" />
 
   <!-- AOSPA-legacy/CM removals -->
   <remove-project name="AOSPA-legacy/manifest" />
