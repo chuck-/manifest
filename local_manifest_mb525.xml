@@ -32,7 +32,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="frameworks/av" name="Quarx2k/android_frameworks_av" remote="github" revision="cm-11.0" />
-  <project path="frameworks/base" name="chuck-/android_frameworks_base" remote="github" revision="PA-kk" />
+  <project path="frameworks/base" name="chuck-/android_frameworks_base" remote="github" revision="kitkat" />
   <project path="frameworks/native" name="Quarx2k/android_frameworks_native" remote="github" revision="cm-11.0" />
   <project path="hardware/ril" name="Quarx2k/android_hardware_ril" remote="github" revision="cm-11.0" />
   <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-4.4" />
@@ -45,8 +45,8 @@
   <project path="packages/apps/HwaSettings" name="royale1223/HwaSettings" remote="github" revision="master" />
   <project path="jordan-kernel" name="Quarx2k/jordan-kernel" remote="github" revision="AeroKernel" />
   <project path="hardware/libhardware_legacy" name="Quarx2k/android_hardware_libhardware_legacy" remote="github" revision="cm-11.0" />
-  <project path="system/core" name="chuck-/system_core" remote="github" revision="PA-kk" />
-  <project path="frameworks/opt/telephony" name="Quarx2k/android_frameworks_opt_telephony" remote="github" revision="cm-11.0" />
+  <project path="system/core" name="Quarx2k/android_system_core" remote="github" revision="cm-11.0" />
+  <project path="frameworks/opt/telephony" name="chuck-/android_frameworks_opt_telephony" remote="github" revision="kitkat" />
   <!-- <project path="packages/apps/Settings" name="Quarx2k/android_packages_apps_Settings" /> -->
   <project path="hardware/ti/wlan" name="Quarx2k/android_hardware_ti_wlan" remote="github" revision="cm-11.0" />
   <project path="hardware/ti/omap3" name="Quarx2k/android_hardware_ti_omap3-compat" remote="github" revision="cm-11.0" />
