@@ -13,26 +13,26 @@
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
   <remove-project name="CyanogenMod/android_hardware_ril" />
   <remove-project name="AOSPA-legacy/android_system_core" />
-  <!-- <remove-project name="CyanogenMod/android_hardware_ti_omap3" /> -->
+  <!-- not in default <remove-project name="CyanogenMod/android_hardware_ti_omap3" /> -->
   <remove-project name="CyanogenMod/android_bootable_recovery" />
   <remove-project name="AOSPA-legacy/android_frameworks_opt_telephony" />
-  <!-- <remove-project name="AOSPA-legacy/android_packages_apps_Settings" /> -->
+  <remove-project name="AOSPA-legacy/android_packages_apps_Settings" />
   <remove-project name="AOSPA-legacy/android_vendor_pa" />
   <remove-project name="AOSPA-legacy/android_packages_services_Telephony" />
   <remove-project name="platform/external/qemu" />
   <remove-project name="platform/external/qemu-pc-bios" />
   <remove-project name="platform/packages/apps/VideoEditor" />
-  <remove-project name="AOSPA-legacy/android_packages_apps_InCallUI" />
+  <!-- not needed now <remove-project name="AOSPA-legacy/android_packages_apps_InCallUI" /> -->
   <remove-project name="AOSPA-legacy/android_art" />
   <remove-project name="CyanogenMod/android_frameworks_rs" />
 
   <project path="manifest" name="chuck-/manifest" remote="github" revision="kitkat" />
   <project path="bionic" name="Quarx2k/android_bionic" remote="github" revision="cm-11.0" />
-  <project path="build" name="chuck-/android_build" remote="github" revision="PA-kk" >
-    <copyfile src="core/root.mk" dest="Makefile" />
+  <project path="build" name="chuck-/android_build" remote="github" revision="kitkat" >
+   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="frameworks/av" name="Quarx2k/android_frameworks_av" remote="github" revision="cm-11.0" />
-  <project path="frameworks/base" name="chuck-/android_frameworks_base" remote="github" revision="kitkat" />
+  <project path="frameworks/base" name="chuck-/android_frameworks_base" remote="github" revision="PA-kk" />
   <project path="frameworks/native" name="Quarx2k/android_frameworks_native" remote="github" revision="cm-11.0" />
   <project path="hardware/ril" name="Quarx2k/android_hardware_ril" remote="github" revision="cm-11.0" />
   <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-4.4" />
@@ -45,9 +45,9 @@
   <project path="packages/apps/HwaSettings" name="royale1223/HwaSettings" remote="github" revision="master" />
   <project path="jordan-kernel" name="Quarx2k/jordan-kernel" remote="github" revision="AeroKernel" />
   <project path="hardware/libhardware_legacy" name="Quarx2k/android_hardware_libhardware_legacy" remote="github" revision="cm-11.0" />
-  <project path="system/core" name="Quarx2k/android_system_core" remote="github" revision="cm-11.0" />
-  <project path="frameworks/opt/telephony" name="chuck-/android_frameworks_opt_telephony" remote="github" revision="kitkat" />
-  <!-- <project path="packages/apps/Settings" name="Quarx2k/android_packages_apps_Settings" /> -->
+  <project path="system/core" name="chuck-/android_system_core" remote="github" revision="kitkat" />
+  <project path="frameworks/opt/telephony" name="chuck-/android_frameworks_opt_telephony" remote="github" revision="PAkk" />
+  <project path="packages/apps/Settings" name="chuck-/android_packages_apps_Settings" remote="github" revision="kitkat" />
   <project path="hardware/ti/wlan" name="Quarx2k/android_hardware_ti_wlan" remote="github" revision="cm-11.0" />
   <project path="hardware/ti/omap3" name="Quarx2k/android_hardware_ti_omap3-compat" remote="github" revision="cm-11.0" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="github" revision="cm-11.0" />
@@ -56,7 +56,7 @@
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
   <project path="packages/services/Telephony" name="chuck-/android_packages_services_Telephony" remote="github" revision="kitkat" />
-  <project path="packages/apps/InCallUI" name="Quarx2k/android_packages_apps_InCallUI" remote="github" revision="cm-11.0" />
+  <!-- <project path="packages/apps/InCallUI" name="Quarx2k/android_packages_apps_InCallUI" remote="github" revision="cm-11.0" /> -->
   <project path="frameworks/rs" name="Quarx2k/android_frameworks_rs" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="art" name="Quarx2k/android_art" remote="github" revision="cm-11.0" />
 
